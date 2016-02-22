@@ -8,7 +8,7 @@
    <!--- Basic Page Needs
    ================================================== -->
    <meta charset="utf-8">
-	<title>Bryant Curtis</title>
+	<title>Bryant's Profile</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 
@@ -19,7 +19,7 @@
 	<!-- CSS
     ================================================== -->
    <link rel="stylesheet" href="css/default.css">
-	<link rel="stylesheet" href="css/layout.css">
+	 <link rel="stylesheet" href="css/layout.css">
    <link rel="stylesheet" href="css/media-queries.css">
    <link rel="stylesheet" href="css/animate.css">
    <link rel="stylesheet" href="css/prettyPhoto.css">
@@ -30,7 +30,7 @@
 
    <!-- Favicons
 	================================================== -->
-	<link rel="shortcut icon" href="profile-favicon-bold.png" >
+	<link rel="shortcut icon" href="favicon.png" >
 
 </head>
 
@@ -47,7 +47,9 @@
    <header>
 
       <div class="logo">
-         <a class="smoothscroll" href="#hero">Bryant</a>
+         <a class="smoothscroll" href="#hero"><!-- <img alt="" src="images/logo.png"> -->
+            Bryant
+         </a>
       </div>
 
       <nav id="nav-wrap">
@@ -55,20 +57,20 @@
 	      <a class="mobile-btn" href="#" title="Hide navigation">Hide Menu</a>
 
          <ul id="nav" class="nav">
-            <li><a class="smoothscroll" href="#features">Projects</a></li>
+            <li><a class="smoothscroll" href="#features">PROJECTS</a></li>
 	          <!-- <li><a class="smoothscroll" href="#pricing">Pricing</a></li> -->
-            <li><a class="smoothscroll" href="#screenshots">Skills</a></li>
-            <!-- <li><a class="smoothscroll" href="#testimonials">Testimonials</a></li> -->
-            <li><a class="smoothscroll" href="#subscribe">Contact</a></li>
+            <li><a class="smoothscroll" href="#call-to-action">RESUME</a></li>
+            <li><a class="smoothscroll" href="#screenshots">SKILLS</a></li>
+            <li><a class="smoothscroll" href="#footer">CONTACT</a></li>
          </ul> <!-- end #nav -->
 
       </nav> <!-- end #nav-wrap -->
 
-      <ul class="header-social">
+      <!-- <ul class="header-social">
          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
          <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-      </ul>
+      </ul> -->
 
    </header> <!-- Header End -->
 
@@ -81,20 +83,29 @@
 
 		   <div class="twelve columns">
 
-			   <div class="hero-text" style="margin-top:50px;">
-				   <h1 class="responsive-headline">I am Bryant Curtis</h1>
+         <div align="center">
+            <div class="profile">
+              <img src="images/profile.jpg" alt="" />
+            </div>
+         </div>
 
-				   <p>I'm a New York based Software Developer.
+<!--
+            <div class="background-position"></div>
+ -->
+
+			   <div class="hero-text" style="margin-top:10px;">
+				   <h1 class="responsive-headline">I am Bryant Curtis.</h1>
+
+				   <p>'m a New York based Software Developer.
              I'm experienced in Ruby, Rails, JavaScript and React.
              Since elementary school I have enjoyed solving problems, particularly in math.
              I love to code and find new ways to implement features to my ongoing projects.
-             When not on the computer I'm typically focussed on family, eating good food and listening to inspirational music.
-           </p>
+             When not on the computer I'm typically focussed on family, eating good food and listening to inspirational music. </p>
 			   </div>
 
             <div class="buttons">
                <!-- <a class="button trial" href="#">Free Trial</a>
- -->               <a class="button learn-more smoothscroll" href="#features">About More</a>
+ -->               <a class="button learn-more smoothscroll" href="#features">See More</a>
             </div>
 
  <!--            <div class="hero-image">
@@ -115,10 +126,10 @@
       <div class="row feature design">
 
          <div class="six columns right">
-            <h3>Fame Book.</h3>
+            <h3>FameBook - (Rails, React, Flux)</h3>
 
-            <p>Lorem ipsum dolor sit amet, ea eum labitur scripserit, illum complectitur deterruisset at pro. Odio quaeque reformidans est eu, expetendis intellegebat has ut, viderer invenire ut his. Has molestie percipit an. Falli volumus efficiantur sed id, ad vel noster propriae. Ius ut etiam vivendo, graeci iudicabit constituto at mea. No soleat fabulas prodesset vel, ut quo solum dicunt.
-            Nec et amet vidisse mentitum. Cibo mutat nulla ei eam.
+            <p>A Facebook clone - Users connect with Famous people <br> Organizes Friendships to allow a two-way lookup.Stores encrypted hash for user password authentication.Updates activities instantly using a React user interface.
+
             </p>
          </div>
 
@@ -131,17 +142,14 @@
       <div class="row feature responsive">
 
          <div class="six columns left">
-            <h3>Fully Responsive.</h3>
+            <h3>Bolts - (JavaScript, HTML, Canvas)</h3>
 
-            <p>Aenean condimentum, lacus sit amet luctus lobortis, dolores et quas molestias excepturi
-            enim tellus ultrices elit, amet consequat enim elit noneas sit amet luctu.
-            Quis nostrum exercitationem ullam corporis suscipit laboriosam.Our library is continually refreshed with the latest on web technology
-            so you'll never fall behind. Quis nostrum exercitationem ullam corporis suscipit laboriosam.
+            <p> Fun game that can be very addictive - Ye are warned<br> Renders high performance graphics using native HTML canvas element.Customizes varying and incrementing falling bolt speeds.Creates a progressively expanding explosion effect.
             </p>
          </div>
 
          <div class="six columns feature-media right">
-             <img src="images/feature-image-2.png" alt="" />
+             <img src="images/Bolts.png" alt="" />
          </div>
 
       </div>
@@ -149,20 +157,19 @@
       <div class="row feature cross-browser">
 
          <div class="six columns right">
-            <h3>Cross-Browser Compatible.</h3>
+            <h3> Chess - (Ruby, Unicode)</h3>
 
-            <p>Lorem ipsum dolor sit amet, ea eum labitur scripserit, illum complectitur deterruisset at pro. Odio quaeque reformidans est eu, expetendis intellegebat has ut, viderer invenire ut his. Has molestie percipit an. Falli volumus efficiantur sed id, ad vel noster propriae. Ius ut etiam vivendo, graeci iudicabit constituto at mea. No soleat fabulas prodesset vel, ut quo solum dicunt.
-            Nec et amet vidisse mentitum. Cibo mutat nulla ei eam.
+            <p>A chess game playable in the Terminal application<br>Applies data format to handle diagonal and non-diagonal movement.Verifies validity of each move prior to execution.Implements Unicode for visual effects allowing user play.
             </p>
          </div>
 
          <div class="six columns feature-media left">
-             <img src="images/feature-image-3.png" alt="" />
+             <img src="images/chess.png" alt="" />
          </div>
 
       </div>
 
-      <div class="row feature video">
+<!--       <div class="row feature video">
 
          <div class="six columns left">
             <h3>Video Support.</h3>
@@ -179,7 +186,7 @@
              </div>
          </div>
 
-      </div>
+      </div> -->
 
    </section> <!-- Homepage Hero end -->
 
@@ -314,13 +321,13 @@
 
          <div class="two columns header-col">
 
-            <h1><span>Get Hosting.</span></h1>
+            <h1><span>Get Hosting</span></h1>
 
          </div>
 
          <div class="seven columns">
 
-            <h2><a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">My resume Dwonload.</a></h2>
+            <h2><a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">My Resume</a></h2>
            <!--  <p>Looking for an awesome and reliable webhosting? Try <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT"><span>DreamHost</span></a>.
 					Get <span>$50 off</span> when you sign up with the promocode <span>STYLESHOUT</span>.  -->
 					<!-- Simply type	the promocode in the box labeled “Promo Code” when placing your order. --><!-- </p> -->
@@ -329,7 +336,7 @@
 
          <div class="three columns action">
 
-            <a href="https://docs.google.com/document/d/1CmCMRhqmtTwdwwFCCHQd1z4jSomL6DHYrPiMGe2OsEY/edit?usp=drive_web" class="button">Download NOW</a>
+            <a href="https://docs.google.com/document/d/1CmCMRhqmtTwdwwFCCHQd1z4jSomL6DHYrPiMGe2OsEY/edit?usp=drive_web" class="button">Download</a>
 
          </div>
 
@@ -344,12 +351,12 @@
 
       <div class="row section-head">
 
-         <h1>SKILL</h1>
+         <h1>SKILLS</h1>
 
-         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+<!--          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
          eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
          voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-         </p>
+         </p> -->
 
       </div>
 
@@ -363,8 +370,8 @@
           	   <div class="columns item">
                   <div class="item-wrap">
 
-                     <a href="images/screenshots/big/b-line-icons.jpg" data-imagelightbox="a" >
-                        <img src="images/screenshots/line-icons.jpg" alt="Line Icons">
+                     <a href="images/screenshots/big/b-ruby.png" data-imagelightbox="a" >
+                        <img src="images/ruby.png" alt="ruby">
                         <div class="overlay"></div>
                         <div class="link-icon"><i class="icon-plus"></i></div>
                      </a>
@@ -375,8 +382,8 @@
                <div class="columns item">
                   <div class="item-wrap">
 
-                     <a href="images/screenshots/big/b-hipster.jpg" data-imagelightbox="a" >
-                        <img src="images/screenshots/hipster.jpg" alt="Hipster">
+                     <a href="images/screenshots/big/b-rails2.png" data-imagelightbox="a" >
+                        <img src="images/rails2.png" alt="rails">
                         <div class="overlay"></div>
                         <div class="link-icon"><i class="icon-plus"></i></div>
                      </a>
@@ -387,8 +394,8 @@
                <div class="columns item">
                   <div class="item-wrap">
 
-                     <a href="images/screenshots/big/b-authentic-vintage.jpg" data-imagelightbox="a" >
-                        <img src="images/screenshots/authentic-vintage.jpg" alt="Authentic Vintage">
+                     <a href="images/screenshots/big/b-javascript.png" data-imagelightbox="a" >
+                        <img src="images/javascript.png" alt="javascript">
                         <div class="overlay"></div>
                         <div class="link-icon"><i class="icon-plus"></i></div>
                      </a>
@@ -399,8 +406,8 @@
                <div class="columns item">
                   <div class="item-wrap">
 
-                     <a href="images/screenshots/big/b-spot-uv-logo.jpg" data-imagelightbox="a" >
-                        <img src="images/screenshots/spot-uv-logo.jpg" alt="Spot UV Logo">
+                     <a href="images/screenshots/big/b-react.png" data-imagelightbox="a" >
+                        <img src="images/react.png" alt="react">
                         <div class="overlay"></div>
                         <div class="link-icon"><i class="icon-plus"></i></div>
                      </a>
@@ -411,8 +418,8 @@
                <div class="columns item">
                   <div class="item-wrap">
 
-                     <a href="images/screenshots/big/b-tshirt-mockup.jpg" data-imagelightbox="a" >
-                     	<img src="images/screenshots/tshirt-mockup.jpg" alt="TShirt Mockup">
+                     <a href="images/screenshots/big/b-flux.png" data-imagelightbox="a" >
+                     	<img src="images/flux.png" alt="flux">
                        	<div class="overlay"></div>
                         <div class="link-icon"><i class="icon-plus"></i></div>
                      </a>
@@ -423,8 +430,8 @@
                <div class="columns item">
                   <div class="item-wrap">
 
-                     <a href="images/screenshots/big/b-abstract-vector.jpg" data-imagelightbox="a" >
-                        <img src="images/screenshots/abstract-vector.jpg" alt="Abstract Vector">
+                     <a href="images/screenshots/big/b-jquery.png" data-imagelightbox="a" >
+                        <img src="images/jquery.png" alt="jquery">
                         <div class="overlay"></div>
                         <div class="link-icon"><i class="icon-plus"></i></div>
                      </a>
@@ -435,8 +442,8 @@
                <div class="columns item">
                   <div class="item-wrap">
 
-                     <a href="images/screenshots/big/b-embossed-paper.jpg" data-imagelightbox="a" >
-                        <img src="images/screenshots/embossed-paper.jpg" alt="Embossed Paper">
+                     <a href="images/screenshots/big/b-HTML5.png" data-imagelightbox="a" >
+                        <img src="images/HTML5.png" alt="HTML5">
                         <div class="overlay"></div>
                         <div class="link-icon"><i class="icon-plus"></i></div>
                      </a>
@@ -447,8 +454,8 @@
                <div class="columns item">
                   <div class="item-wrap">
 
-                     <a href="images/screenshots/big/b-judah.jpg" data-imagelightbox="a" >
-                        <img src="images/screenshots/judah.jpg" alt="Judah">
+                     <a href="images/screenshots/big/b-css.png" data-imagelightbox="a" >
+                        <img src="images/css.png" alt="css">
                         <div class="overlay"></div>
                         <div class="link-icon"><i class="icon-plus"></i></div>
                      </a>
@@ -459,8 +466,8 @@
                <div class="columns item">
                   <div class="item-wrap">
 
-                     <a href="images/screenshots/big/b-hipster.jpg" data-imagelightbox="a" >
-                        <img src="images/screenshots/hipster.jpg" alt="Hipster">
+                     <a href="images/screenshots/big/b-git.png" data-imagelightbox="a" >
+                        <img src="images/git.png" alt="git">
                         <div class="overlay"></div>
                         <div class="link-icon"><i class="icon-plus"></i></div>
                      </a>
@@ -471,8 +478,8 @@
                <div class="columns item">
                   <div class="item-wrap">
 
-                     <a href="images/screenshots/big/b-hipster.jpg" data-imagelightbox="a" >
-                        <img src="images/screenshots/hipster.jpg" alt="Hipster">
+                     <a href="images/screenshots/big/b-rspec2.png" data-imagelightbox="a" >
+                        <img src="images/rspec2.png" alt="rspec">
                         <div class="overlay"></div>
                         <div class="link-icon"><i class="icon-plus"></i></div>
                      </a>
@@ -482,8 +489,8 @@
             <div class="columns item">
                   <div class="item-wrap">
 
-                     <a href="images/screenshots/big/b-hipster.jpg" data-imagelightbox="a" >
-                        <img src="images/screenshots/hipster.jpg" alt="Hipster">
+                     <a href="images/screenshots/big/b-aws.png" data-imagelightbox="a" >
+                        <img src="images/aws.png" alt="Amazon Web Survices">
                         <div class="overlay"></div>
                         <div class="link-icon"><i class="icon-plus"></i></div>
                      </a>
@@ -492,8 +499,8 @@
                </div><div class="columns item">
                   <div class="item-wrap">
 
-                     <a href="images/screenshots/big/b-hipster.jpg" data-imagelightbox="a" >
-                        <img src="images/screenshots/hipster.jpg" alt="Hipster">
+                     <a href="images/screenshots/big/b-postgresql.png" data-imagelightbox="a" >
+                        <img src="images/postgresql.png" alt="postgresql">
                         <div class="overlay"></div>
                         <div class="link-icon"><i class="icon-plus"></i></div>
                      </a>
@@ -569,7 +576,7 @@
 
    <!-- Subscribe
    ================================================== -->
-   <section id="subscribe">
+   <!-- <section id="subscribe">
 
       <div class="row section-head">
 
@@ -587,16 +594,16 @@
 
       <div class="row">
 
-         <div class="twelve columns">
+         <div class="twelve columns"> -->
 
          <!-- Begin MailChimp Signup Form -->
 
-            <div id="mc_embed_signup">
+            <!-- <div id="mc_embed_signup">
                <form action="http://facebook.us8.list-manage.com/subscribe/post?u=cdb7b577e41181934ed6a6a44&amp;id=e65110b38d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 
-                  <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required> -->
+                  <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
                    real people should not fill this in and expect good things - do not remove this or risk form bot signups
-                  <div style="position: absolute; left: -5000px;"><input type="text" name="b_cdb7b577e41181934ed6a6a44_e65110b38d" value=""></div>
+                   <div style="position: absolute; left: -5000px;"><input type="text" name="b_cdb7b577e41181934ed6a6a44_e65110b38d" value=""></div>
                   <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
 
             </form>
@@ -608,23 +615,23 @@
 
       </div>
 
-   </section>
+   </section>  -->
 
-    <!-- Subscribe Section End -->
-
+   <!-- Subscribe Section End -->
 
    <!-- Footer
    ================================================== -->
-   <footer>
+   <footer id="footer">
 
       <div class="row">
 
-         <div class="six columns info">
+         <!-- <div class="six columns info">
 
             <div class="footer-logo">
                <a href="#">
                   <img src="images/footer-logo.png" alt="" />
                </a>
+               <h1>Contact</h1>
             </div>
 
             <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
@@ -632,7 +639,7 @@
             nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
             </p>
 
-         </div>
+         </div> -->
 
          <div class="six columns right-cols">
 
@@ -647,21 +654,21 @@
                   </p>
                </div> -->
 
-               <div class="columns">
+               <!-- <div class="columns">
                   <h3 class="social">socialize</h3>
                   <ul>
                      <li><a href="#">Facebook</a></li>
                      <li><a href="#">Twitter</a></li>
                      <li><a href="#">GooglePlus</a></li>
                   </ul>
-               </div>
+               </div> -->
 
                <div class="columns last">
-                  <h3 class="contact">Contact Us</h3>
+                  <h3 class="contact">Contact</h3>
                   <ul>
-                    <li><a href="tel:6473438234">647.343.8234</a></li>
-                    <li><a href="tel:1234567890">123.456.7890</a></li>
-                    <li><a href="mailto:someone@woo.com">someone@woosite.com</a></li>
+                    <!-- <li><a href="tel:6473438234">647.343.8234</a></li> -->
+                    <!-- <li><a href="tel:1234567890">123.456.7890</a></li> -->
+                    <li><a href="mailto:cbryant.dev@gmail.com">cbryant.dev@gmail.com</a></li>
                   </ul>
                </div>
 
