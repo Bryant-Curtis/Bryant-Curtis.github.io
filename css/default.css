@@ -315,7 +315,8 @@ a, a:visited {
    text-decoration: none;
    outline: 0;
    /*color: #11ABB0;*/
-   color:#fff;
+   /*color:#fff;*/
+   color:#222222;
 
    -webkit-transition: color .3s ease-in-out;
    -moz-transition: color .3s ease-in-out;
