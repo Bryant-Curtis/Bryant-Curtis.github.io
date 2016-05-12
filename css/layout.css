@@ -178,7 +178,8 @@ ul#nav li.current a { color: #fff; }
    padding-top: 66px;
    /*background: url(img/cinematic2.png);*/
    overflow: hidden;
-   background: #405D9A;
+   background: -webkit-gradient(linear, center bottom, center top, from(#234F96), to(#4EB8C5));
+   /*background: #405D9A;*/
    /*background-image:url(images/cinematic2.png);*/
    height:680px;
 }
